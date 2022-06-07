@@ -1,0 +1,18 @@
+@import 'bootstrap-reboot.min';
+@import 'font';
+
+* {
+    font-family: 'Montserrat';
+}
+
+
+.container{
+    margin: 0 auto;
+    &_1520 {
+        width: 1520px;
+    }
+}
+
+
+@import 'blocks/header';
+@import 'blocks/service';
